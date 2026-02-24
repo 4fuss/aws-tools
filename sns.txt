@@ -1,0 +1,549 @@
+ACSD_Gun_Detection_Alerts = {
+name = "ACSD_Gun-Detection-Alerts"
+tracing_config = "PassThrough"
+}
+ANP = {
+name = "ANP"
+}
+Act_Now_Alerts = {
+name = "Act-Now-Alerts"
+}
+ActuateSESRenderingFailure = {
+name = "ActuateSESRenderingFailure"
+tracing_config = "PassThrough"
+}
+ActuateSesDeliveryNotification = {
+name = "ActuateSesDeliveryNotification"
+tracing_config = "PassThrough"
+}
+ActuateWebhookSender = {
+name = "ActuateWebhookSender"
+}
+ActuateWebhookSender_fifo = {
+name = "ActuateWebhookSender.fifo"
+content_based_deduplication = false
+fifo_topic = true
+}
+Actuate_Genesis_Tunnel_Down_Alarm = {
+name = "Actuate_Genesis_Tunnel_Down_Alarm"
+}
+Alibi_Gateway_Sight_Sound_Office_gun_detection = {
+name = "Alibi-Gateway-Sight-Sound-Office-gun-detection"
+tracing_config = "PassThrough"
+}
+Alibi_1512_chalk_bluff_ct_4714_Alerts = {
+name = "Alibi_1512_chalk_bluff_ct_4714_Alerts"
+}
+Alibi_ilivinggroup_demo_5049_Alerts = {
+name = "Alibi_ilivinggroup_demo_5049_Alerts"
+}
+Alibi_intrepid_systems_dexter_5147_Alerts = {
+name = "Alibi_intrepid_systems_dexter_5147_Alerts"
+}
+AmericanAlarm_Office_Alarms = {
+name = "AmericanAlarm_Office_Alarms"
+}
+AmericanAlarm_Office_Alarms_Outdoor = {
+name = "AmericanAlarm_Office_Alarms_Outdoor"
+}
+Analytics_UI_CPU_Alarm = {
+name = "Analytics_UI_CPU_Alarm"
+}
+Autotraining = {
+name = "Autotraining"
+}
+Barbados_Police_Service_Crowd = {
+name = "Barbados_Police_Service_Crowd"
+tracing_config = "PassThrough"
+}
+Barbados_Police_Service_Gun = {
+name = "Barbados_Police_Service_Gun"
+tracing_config = "PassThrough"
+}
+Barbados_Police_Service_Loitering = {
+name = "Barbados_Police_Service_Loitering"
+tracing_config = "PassThrough"
+}
+Bati_secur_nyc_fifo = {
+name = "Bati_secur-nyc.fifo"
+content_based_deduplication = false
+fifo_topic = true
+}
+Batisecur_Intruder_demo = {
+name = "Batisecur-Intruder-demo"
+}
+Batisecur_gun_demo = {
+name = "Batisecur-gun-demo"
+}
+Blake_home_office_gun_demo = {
+name = "Blake-home-office-gun-demo"
+tracing_config = "PassThrough"
+}
+BlucorSmtp = {
+name = "BlucorSmtp"
+}
+Brookhaven_Logistics_Center = {
+name = "Brookhaven_Logistics_Center"
+tracing_config = "PassThrough"
+}
+Cadence_Alerts = {
+name = "Cadence-Alerts"
+}
+CampbellCitySchools = {
+name = "CampbellCitySchools"
+}
+Cap_Gun_Alerts = {
+name = "Cap_Gun_Alerts"
+}
+Cap_Security_Alerts = {
+name = "Cap_Security_Alerts"
+}
+Centralarm = {
+name = "Centralarm"
+}
+Civitas_Alerts = {
+name = "Civitas-Alerts"
+}
+ComrieResidence = {
+name = "ComrieResidence"
+}
+Default_CloudWatch_Alarms_Topic = {
+name = "Default_CloudWatch_Alarms_Topic"
+}
+Demiguard_McNichols_alerts = {
+name = "Demiguard-McNichols-alerts"
+tracing_config = "PassThrough"
+}
+DevReliantAlerts = {
+name = "DevReliantAlerts"
+}
+Docomo_Alerts = {
+name = "Docomo-Alerts"
+}
+ESecurity = {
+name = "ESecurity"
+}
+Edgeworth_Alerts = {
+name = "Edgeworth-Alerts"
+}
+Electronix_Leonardo_Home = {
+name = "Electronix_Leonardo_Home"
+tracing_config = "PassThrough"
+}
+EmpireBayShore = {
+name = "EmpireBayShore"
+tracing_config = "PassThrough"
+}
+Engineering_Alarms = {
+name = "Engineering-Alarms"
+}
+EnveraLOD = {
+name = "EnveraLOD"
+tracing_config = "PassThrough"
+}
+Eyeforce_Alerts = {
+name = "Eyeforce-Alerts"
+}
+Eyeforce_Seabridge_Alerts = {
+name = "Eyeforce-Seabridge-Alerts"
+}
+FCL_Attridge = {
+name = "FCL_Attridge"
+}
+FVS_Guarding = {
+name = "FVS_Guarding"
+}
+FVS_Gun_Test = {
+name = "FVS_Gun_Test"
+}
+FVS_Office_Alerts = {
+name = "FVS_Office_Alerts"
+}
+Francisco_test = {
+name = "Francisco_test"
+tracing_config = "PassThrough"
+}
+Gateway_Gardens_alerts = {
+name = "Gateway-Gardens-alerts"
+tracing_config = "PassThrough"
+}
+Genesis_Alerts_Low = {
+name = "Genesis-Alerts-Low"
+}
+GenesisAlerts = {
+name = "GenesisAlerts"
+}
+GenesisAlertsArecibo = {
+name = "GenesisAlertsArecibo"
+}
+GenesisAlertsBayamon = {
+name = "GenesisAlertsBayamon"
+}
+GenesisAlertsBlackList = {
+name = "GenesisAlertsBlackList"
+}
+GenesisAlertsCaguas = {
+name = "GenesisAlertsCaguas"
+}
+GenesisAlertsHighPriority = {
+name = "GenesisAlertsHighPriority"
+}
+GenesisAlertsHumacao = {
+name = "GenesisAlertsHumacao"
+}
+GenesisAlertsMayaguez = {
+name = "GenesisAlertsMayaguez"
+}
+GenesisAlertsPonce = {
+name = "GenesisAlertsPonce"
+}
+GenesisAlertsSanJuan = {
+name = "GenesisAlertsSanJuan"
+}
+GenesisAlertsSanJuan_69930_GunTest = {
+name = "GenesisAlertsSanJuan_69930_GunTest"
+}
+GenesisGun = {
+name = "GenesisGun"
+}
+Genesis_17343_GunAlerts = {
+name = "Genesis_17343_GunAlerts"
+}
+Genesis_1_Memory_Utilization_High = {
+name = "Genesis_1_Memory_Utilization_High"
+}
+Genesis_64402_GunAlerts = {
+name = "Genesis_64402_GunAlerts"
+}
+Genesis_Temp_SNS = {
+name = "Genesis_Temp_SNS"
+}
+Genesis_Warnings = {
+name = "Genesis_Warnings"
+}
+Hancock_Public_Schools_Demo = {
+name = "Hancock-Public-Schools-Demo"
+display_name = "Hancock-Public-Schools"
+tracing_config = "PassThrough"
+}
+HoffmanResidence = {
+name = "HoffmanResidence"
+}
+Hyde_Park_Alerts = {
+name = "Hyde_Park_Alerts"
+}
+INTELyO = {
+name = "INTELyO"
+tracing_config = "PassThrough"
+}
+Intelltech = {
+name = "Intelltech"
+}
+Jessica_home_gum_demo = {
+name = "Jessica-home-gum-demo"
+tracing_config = "PassThrough"
+}
+Laura_test = {
+name = "Laura_test"
+tracing_config = "PassThrough"
+}
+Live_Patrol_Alerts = {
+name = "Live-Patrol-Alerts"
+}
+LiveDemo = {
+name = "LiveDemo"
+}
+London_Oaks_Alerts = {
+name = "London-Oaks-Alerts"
+}
+LouisianaSalesLiveDemoSite_Alerts = {
+name = "LouisianaSalesLiveDemoSite_Alerts"
+tracing_config = "PassThrough"
+}
+MWT_Alerts = {
+name = "MWT_Alerts"
+}
+Maguen_Group_Test_Site_Alerts = {
+name = "Maguen_Group_Test_Site_Alerts"
+}
+Maguen_Group_Test_Site__Bunker_Alerts = {
+name = "Maguen_Group_Test_Site__Bunker_Alerts"
+}
+MaxSecurity = {
+name = "MaxSecurity"
+}
+MaxSecurity_Alerts = {
+name = "MaxSecurity_Alerts"
+}
+MaxSecurity_OysterBay_Alerts = {
+name = "MaxSecurity_OysterBay_Alerts"
+}
+Max_Security_Allen_Cathedral = {
+name = "Max_Security_Allen_Cathedral"
+tracing_config = "PassThrough"
+}
+Max_Security_Paramount_Baltimore = {
+name = "Max_Security_Paramount_Baltimore"
+tracing_config = "PassThrough"
+}
+Media144_OfficeGunDetection = {
+name = "Media144-OfficeGunDetection"
+}
+Munzig_Residence_notifications = {
+name = "Munzig-Residence-notifications"
+tracing_config = "PassThrough"
+}
+NZ_Alerts = {
+name = "NZ-Alerts"
+}
+OberlanderGunTest = {
+name = "OberlanderGunTest"
+}
+OsceolaCountySheriff = {
+name = "OsceolaCountySheriff"
+}
+ParkerAlerts = {
+name = "ParkerAlerts"
+}
+Qovo_Test = {
+name = "Qovo-Test"
+}
+RLI_Alerts = {
+name = "RLI_Alerts"
+}
+S3toDynamoArchive = {
+name = "S3toDynamoArchive"
+}
+S3toDynamoArchiveV2 = {
+name = "S3toDynamoArchiveV2"
+display_name = "S3DynamoV2"
+}
+S3toDynamoWindow = {
+name = "S3toDynamoWindow"
+}
+SL_Green_Tunnel = {
+name = "SL-Green-Tunnel"
+}
+SOS_Tech_Alerts = {
+name = "SOS_Tech_Alerts"
+tracing_config = "PassThrough"
+}
+STSAlerts = {
+name = "STSAlerts"
+}
+Sales_Alerts = {
+name = "Sales-Alerts"
+}
+Scott_Test = {
+name = "Scott_Test"
+}
+Server_Down_Topic = {
+name = "Server_Down_Topic"
+}
+St_Johns_Alerts = {
+name = "St-Johns-Alerts"
+}
+Stability_Alarms = {
+name = "Stability_Alarms"
+}
+Statewide = {
+name = "Statewide"
+}
+Statewide_alerts = {
+name = "Statewide-alerts"
+}
+Strategic_Alerts = {
+name = "Strategic-Alerts"
+}
+The_Recording_Academy_New_York_Alerts = {
+name = "The_Recording_Academy_New_York_Alerts"
+tracing_config = "PassThrough"
+}
+The_Recording_Academy_Santa_Monica_Alerts = {
+name = "The_Recording_Academy_Santa_Monica_Alerts"
+}
+Unicom_Alerts = {
+name = "Unicom-Alerts"
+}
+WHS_Gun_Alerts = {
+name = "WHS_Gun_Alerts"
+tracing_config = "PassThrough"
+}
+Weeksville = {
+name = "Weeksville"
+}
+Western_Springs_Alerts = {
+name = "Western-Springs-Alerts"
+}
+Wisconsin_Spice_Alerts = {
+name = "Wisconsin-Spice-Alerts"
+}
+acadia_alerts = {
+name = "acadia-alerts"
+}
+acadian_alerts = {
+name = "acadian-alerts"
+}
+actuate_ast_alerts = {
+name = "actuate-ast-alerts"
+}
+alibi_the_metaled_company = {
+name = "alibi-the-metaled-company"
+tracing_config = "PassThrough"
+}
+aws_cloudtrail_logs_388576304176_25002563 = {
+name = "aws-cloudtrail-logs-388576304176-25002563"
+}
+aws_cloudtrail_logs_388576304176_a901fb8b = {
+name = "aws-cloudtrail-logs-388576304176-a901fb8b"
+}
+aws_controltower_SecurityNotifications = {
+name = "aws-controltower-SecurityNotifications"
+display_name = "aws-controltower-SecurityNotifications"
+tags = "{'aws:cloudformation:stack-id': 
+'arn:aws:cloudformation:us-west-2:388576304176:stack/StackSet-AWSControlTowerBP-BASELINE-CLOUDWATCH-70f1283f-1c1c-4882-9e77
+-92c248e43d70/8030e410-ed6d-11ee-aba1-0ae3d70c7c6d', 'aws:cloudformation:stack-name': 
+'StackSet-AWSControlTowerBP-BASELINE-CLOUDWATCH-70f1283f-1c1c-4882-9e77-92c248e43d70', 'aws:cloudformation:logical-id': 
+'LocalSecurityTopic'}"
+}
+cloudwatch_slack_alarms = {
+name = "cloudwatch-slack-alarms"
+}
+comedAlerts = {
+name = "comedAlerts"
+}
+csaa_tunnel_alarm = {
+name = "csaa-tunnel-alarm"
+}
+customer_changes = {
+name = "customer-changes"
+}
+customer_warnings = {
+name = "customer-warnings"
+}
+customers_pager = {
+name = "customers_pager"
+}
+demoDetected = {
+name = "demoDetected"
+}
+detectedGun = {
+name = "detectedGun"
+display_name = "Detected"
+fifo_topic = false
+}
+detectedV2 = {
+name = "detectedV2"
+display_name = "DetectedV2"
+}
+devDetectedGun = {
+name = "devDetectedGun"
+display_name = "devDetect"
+}
+devK80ASGInternal = {
+name = "devK80ASGInternal"
+}
+dynamodb = {
+name = "dynamodb"
+fifo_topic = false
+}
+email_ingress = {
+name = "email-ingress"
+}
+emirates_falcon_security = {
+name = "emirates-falcon-security"
+display_name = "emirates-falcon-security"
+tracing_config = "PassThrough"
+}
+eng_system_alerts = {
+name = "eng-system-alerts"
+}
+eyeforceAlerts = {
+name = "eyeforceAlerts"
+display_name = "Eyeforce Internal Alerts"
+}
+eyeforce_pager = {
+name = "eyeforce_pager"
+}
+genesis_warnings_low_priority = {
+name = "genesis_warnings_low_priority"
+}
+gentech_demo_alerts = {
+name = "gentech-demo-alerts"
+}
+gun_demo = {
+name = "gun-demo"
+tracing_config = "PassThrough"
+}
+gun_detection_australia = {
+name = "gun-detection-australia"
+}
+healthcheck_results_fifo = {
+name = "healthcheck_results.fifo"
+display_name = "healthcheck"
+content_based_deduplication = true
+fifo_topic = true
+}
+hsb_alerts = {
+name = "hsb-alerts"
+}
+imageProcessorError = {
+name = "imageProcessorError"
+}
+mall_of_georgia_dodge = {
+name = "mall-of-georgia-dodge"
+tracing_config = "PassThrough"
+}
+max_security_empire_skip_lane2 = {
+name = "max-security-empire-skip-lane2"
+tracing_config = "PassThrough"
+}
+max_security_flushing = {
+name = "max-security-flushing"
+tracing_config = "PassThrough"
+}
+mila_alerts = {
+name = "mila-alerts"
+}
+minh_alerts = {
+name = "minh-alerts"
+}
+new_support_email = {
+name = "new-support-email"
+}
+platform_pager = {
+name = "platform_pager"
+}
+reliantAlerts = {
+name = "reliantAlerts"
+}
+rfcu_alerts = {
+name = "rfcu-alerts"
+}
+ses_bounce = {
+name = "ses-bounce"
+tracing_config = "PassThrough"
+}
+sites_changes = {
+name = "sites-changes"
+}
+sites_warnings = {
+name = "sites-warnings"
+}
+sonitrol_alerts = {
+name = "sonitrol-alerts"
+}
+test_alerts = {
+name = "test-alerts"
+}
+testDynamoArchive = {
+name = "testDynamoArchive"
+display_name = "archivet"
+}
+test_s3_email = {
+name = "test_s3_email"
+display_name = "s3email"
+}
+uncommon_alerts = {
+name = "uncommon-alerts"
+}

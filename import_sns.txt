@@ -1,0 +1,656 @@
+import {
+  to = aws_sns_topic.this["ACSD_Gun_Detection_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:ACSD_Gun-Detection-Alerts"
+}
+import {
+  to = aws_sns_topic.this["ANP"]
+  id = "arn:aws:sns:us-west-2:388576304176:ANP"
+}
+import {
+  to = aws_sns_topic.this["Act_Now_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Act-Now-Alerts"
+}
+import {
+  to = aws_sns_topic.this["ActuateSESRenderingFailure"]
+  id = "arn:aws:sns:us-west-2:388576304176:ActuateSESRenderingFailure"
+}
+import {
+  to = aws_sns_topic.this["ActuateSesDeliveryNotification"]
+  id = "arn:aws:sns:us-west-2:388576304176:ActuateSesDeliveryNotification"
+}
+import {
+  to = aws_sns_topic.this["ActuateWebhookSender"]
+  id = "arn:aws:sns:us-west-2:388576304176:ActuateWebhookSender"
+}
+import {
+  to = aws_sns_topic.this["ActuateWebhookSender_fifo"]
+  id = "arn:aws:sns:us-west-2:388576304176:ActuateWebhookSender.fifo"
+}
+import {
+  to = aws_sns_topic.this["Actuate_Genesis_Tunnel_Down_Alarm"]
+  id = "arn:aws:sns:us-west-2:388576304176:Actuate_Genesis_Tunnel_Down_Alarm"
+}
+import {
+  to = aws_sns_topic.this["Alibi_Gateway_Sight_Sound_Office_gun_detection"]
+  id = "arn:aws:sns:us-west-2:388576304176:Alibi-Gateway-Sight-Sound-Office-gun-detection"
+}
+import {
+  to = aws_sns_topic.this["Alibi_1512_chalk_bluff_ct_4714_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Alibi_1512_chalk_bluff_ct_4714_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Alibi_ilivinggroup_demo_5049_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Alibi_ilivinggroup_demo_5049_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Alibi_intrepid_systems_dexter_5147_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Alibi_intrepid_systems_dexter_5147_Alerts"
+}
+import {
+  to = aws_sns_topic.this["AmericanAlarm_Office_Alarms"]
+  id = "arn:aws:sns:us-west-2:388576304176:AmericanAlarm_Office_Alarms"
+}
+import {
+  to = aws_sns_topic.this["AmericanAlarm_Office_Alarms_Outdoor"]
+  id = "arn:aws:sns:us-west-2:388576304176:AmericanAlarm_Office_Alarms_Outdoor"
+}
+import {
+  to = aws_sns_topic.this["Analytics_UI_CPU_Alarm"]
+  id = "arn:aws:sns:us-west-2:388576304176:Analytics_UI_CPU_Alarm"
+}
+import {
+  to = aws_sns_topic.this["Autotraining"]
+  id = "arn:aws:sns:us-west-2:388576304176:Autotraining"
+}
+import {
+  to = aws_sns_topic.this["Barbados_Police_Service_Crowd"]
+  id = "arn:aws:sns:us-west-2:388576304176:Barbados_Police_Service_Crowd"
+}
+import {
+  to = aws_sns_topic.this["Barbados_Police_Service_Gun"]
+  id = "arn:aws:sns:us-west-2:388576304176:Barbados_Police_Service_Gun"
+}
+import {
+  to = aws_sns_topic.this["Barbados_Police_Service_Loitering"]
+  id = "arn:aws:sns:us-west-2:388576304176:Barbados_Police_Service_Loitering"
+}
+import {
+  to = aws_sns_topic.this["Bati_secur_nyc_fifo"]
+  id = "arn:aws:sns:us-west-2:388576304176:Bati_secur-nyc.fifo"
+}
+import {
+  to = aws_sns_topic.this["Batisecur_Intruder_demo"]
+  id = "arn:aws:sns:us-west-2:388576304176:Batisecur-Intruder-demo"
+}
+import {
+  to = aws_sns_topic.this["Batisecur_gun_demo"]
+  id = "arn:aws:sns:us-west-2:388576304176:Batisecur-gun-demo"
+}
+import {
+  to = aws_sns_topic.this["Blake_home_office_gun_demo"]
+  id = "arn:aws:sns:us-west-2:388576304176:Blake-home-office-gun-demo"
+}
+import {
+  to = aws_sns_topic.this["BlucorSmtp"]
+  id = "arn:aws:sns:us-west-2:388576304176:BlucorSmtp"
+}
+import {
+  to = aws_sns_topic.this["Brookhaven_Logistics_Center"]
+  id = "arn:aws:sns:us-west-2:388576304176:Brookhaven_Logistics_Center"
+}
+import {
+  to = aws_sns_topic.this["Cadence_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Cadence-Alerts"
+}
+import {
+  to = aws_sns_topic.this["CampbellCitySchools"]
+  id = "arn:aws:sns:us-west-2:388576304176:CampbellCitySchools"
+}
+import {
+  to = aws_sns_topic.this["Cap_Gun_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Cap_Gun_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Cap_Security_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Cap_Security_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Centralarm"]
+  id = "arn:aws:sns:us-west-2:388576304176:Centralarm"
+}
+import {
+  to = aws_sns_topic.this["Civitas_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Civitas-Alerts"
+}
+import {
+  to = aws_sns_topic.this["ComrieResidence"]
+  id = "arn:aws:sns:us-west-2:388576304176:ComrieResidence"
+}
+import {
+  to = aws_sns_topic.this["Default_CloudWatch_Alarms_Topic"]
+  id = "arn:aws:sns:us-west-2:388576304176:Default_CloudWatch_Alarms_Topic"
+}
+import {
+  to = aws_sns_topic.this["Demiguard_McNichols_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Demiguard-McNichols-alerts"
+}
+import {
+  to = aws_sns_topic.this["DevReliantAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:DevReliantAlerts"
+}
+import {
+  to = aws_sns_topic.this["Docomo_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Docomo-Alerts"
+}
+import {
+  to = aws_sns_topic.this["ESecurity"]
+  id = "arn:aws:sns:us-west-2:388576304176:ESecurity"
+}
+import {
+  to = aws_sns_topic.this["Edgeworth_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Edgeworth-Alerts"
+}
+import {
+  to = aws_sns_topic.this["Electronix_Leonardo_Home"]
+  id = "arn:aws:sns:us-west-2:388576304176:Electronix_Leonardo_Home"
+}
+import {
+  to = aws_sns_topic.this["EmpireBayShore"]
+  id = "arn:aws:sns:us-west-2:388576304176:EmpireBayShore"
+}
+import {
+  to = aws_sns_topic.this["Engineering_Alarms"]
+  id = "arn:aws:sns:us-west-2:388576304176:Engineering-Alarms"
+}
+import {
+  to = aws_sns_topic.this["EnveraLOD"]
+  id = "arn:aws:sns:us-west-2:388576304176:EnveraLOD"
+}
+import {
+  to = aws_sns_topic.this["Eyeforce_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Eyeforce-Alerts"
+}
+import {
+  to = aws_sns_topic.this["Eyeforce_Seabridge_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Eyeforce-Seabridge-Alerts"
+}
+import {
+  to = aws_sns_topic.this["FCL_Attridge"]
+  id = "arn:aws:sns:us-west-2:388576304176:FCL_Attridge"
+}
+import {
+  to = aws_sns_topic.this["FVS_Guarding"]
+  id = "arn:aws:sns:us-west-2:388576304176:FVS_Guarding"
+}
+import {
+  to = aws_sns_topic.this["FVS_Gun_Test"]
+  id = "arn:aws:sns:us-west-2:388576304176:FVS_Gun_Test"
+}
+import {
+  to = aws_sns_topic.this["FVS_Office_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:FVS_Office_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Francisco_test"]
+  id = "arn:aws:sns:us-west-2:388576304176:Francisco_test"
+}
+import {
+  to = aws_sns_topic.this["Gateway_Gardens_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Gateway-Gardens-alerts"
+}
+import {
+  to = aws_sns_topic.this["Genesis_Alerts_Low"]
+  id = "arn:aws:sns:us-west-2:388576304176:Genesis-Alerts-Low"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlerts"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsArecibo"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsArecibo"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsBayamon"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsBayamon"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsBlackList"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsBlackList"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsCaguas"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsCaguas"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsHighPriority"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsHighPriority"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsHumacao"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsHumacao"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsMayaguez"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsMayaguez"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsPonce"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsPonce"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsSanJuan"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsSanJuan"
+}
+import {
+  to = aws_sns_topic.this["GenesisAlertsSanJuan_69930_GunTest"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisAlertsSanJuan_69930_GunTest"
+}
+import {
+  to = aws_sns_topic.this["GenesisGun"]
+  id = "arn:aws:sns:us-west-2:388576304176:GenesisGun"
+}
+import {
+  to = aws_sns_topic.this["Genesis_17343_GunAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Genesis_17343_GunAlerts"
+}
+import {
+  to = aws_sns_topic.this["Genesis_1_Memory_Utilization_High"]
+  id = "arn:aws:sns:us-west-2:388576304176:Genesis_1_Memory_Utilization_High"
+}
+import {
+  to = aws_sns_topic.this["Genesis_64402_GunAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Genesis_64402_GunAlerts"
+}
+import {
+  to = aws_sns_topic.this["Genesis_Temp_SNS"]
+  id = "arn:aws:sns:us-west-2:388576304176:Genesis_Temp_SNS"
+}
+import {
+  to = aws_sns_topic.this["Genesis_Warnings"]
+  id = "arn:aws:sns:us-west-2:388576304176:Genesis_Warnings"
+}
+import {
+  to = aws_sns_topic.this["Hancock_Public_Schools_Demo"]
+  id = "arn:aws:sns:us-west-2:388576304176:Hancock-Public-Schools-Demo"
+}
+import {
+  to = aws_sns_topic.this["HoffmanResidence"]
+  id = "arn:aws:sns:us-west-2:388576304176:HoffmanResidence"
+}
+import {
+  to = aws_sns_topic.this["Hyde_Park_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Hyde_Park_Alerts"
+}
+import {
+  to = aws_sns_topic.this["INTELyO"]
+  id = "arn:aws:sns:us-west-2:388576304176:INTELyO"
+}
+import {
+  to = aws_sns_topic.this["Intelltech"]
+  id = "arn:aws:sns:us-west-2:388576304176:Intelltech"
+}
+import {
+  to = aws_sns_topic.this["Jessica_home_gum_demo"]
+  id = "arn:aws:sns:us-west-2:388576304176:Jessica-home-gum-demo"
+}
+import {
+  to = aws_sns_topic.this["Laura_test"]
+  id = "arn:aws:sns:us-west-2:388576304176:Laura_test"
+}
+import {
+  to = aws_sns_topic.this["Live_Patrol_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Live-Patrol-Alerts"
+}
+import {
+  to = aws_sns_topic.this["LiveDemo"]
+  id = "arn:aws:sns:us-west-2:388576304176:LiveDemo"
+}
+import {
+  to = aws_sns_topic.this["London_Oaks_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:London-Oaks-Alerts"
+}
+import {
+  to = aws_sns_topic.this["LouisianaSalesLiveDemoSite_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:LouisianaSalesLiveDemoSite_Alerts"
+}
+import {
+  to = aws_sns_topic.this["MWT_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:MWT_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Maguen_Group_Test_Site_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Maguen_Group_Test_Site_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Maguen_Group_Test_Site__Bunker_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Maguen_Group_Test_Site__Bunker_Alerts"
+}
+import {
+  to = aws_sns_topic.this["MaxSecurity"]
+  id = "arn:aws:sns:us-west-2:388576304176:MaxSecurity"
+}
+import {
+  to = aws_sns_topic.this["MaxSecurity_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:MaxSecurity_Alerts"
+}
+import {
+  to = aws_sns_topic.this["MaxSecurity_OysterBay_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:MaxSecurity_OysterBay_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Max_Security_Allen_Cathedral"]
+  id = "arn:aws:sns:us-west-2:388576304176:Max_Security_Allen_Cathedral"
+}
+import {
+  to = aws_sns_topic.this["Max_Security_Paramount_Baltimore"]
+  id = "arn:aws:sns:us-west-2:388576304176:Max_Security_Paramount_Baltimore"
+}
+import {
+  to = aws_sns_topic.this["Media144_OfficeGunDetection"]
+  id = "arn:aws:sns:us-west-2:388576304176:Media144-OfficeGunDetection"
+}
+import {
+  to = aws_sns_topic.this["Munzig_Residence_notifications"]
+  id = "arn:aws:sns:us-west-2:388576304176:Munzig-Residence-notifications"
+}
+import {
+  to = aws_sns_topic.this["NZ_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:NZ-Alerts"
+}
+import {
+  to = aws_sns_topic.this["OberlanderGunTest"]
+  id = "arn:aws:sns:us-west-2:388576304176:OberlanderGunTest"
+}
+import {
+  to = aws_sns_topic.this["OsceolaCountySheriff"]
+  id = "arn:aws:sns:us-west-2:388576304176:OsceolaCountySheriff"
+}
+import {
+  to = aws_sns_topic.this["ParkerAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:ParkerAlerts"
+}
+import {
+  to = aws_sns_topic.this["Qovo_Test"]
+  id = "arn:aws:sns:us-west-2:388576304176:Qovo-Test"
+}
+import {
+  to = aws_sns_topic.this["RLI_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:RLI_Alerts"
+}
+import {
+  to = aws_sns_topic.this["S3toDynamoArchive"]
+  id = "arn:aws:sns:us-west-2:388576304176:S3toDynamoArchive"
+}
+import {
+  to = aws_sns_topic.this["S3toDynamoArchiveV2"]
+  id = "arn:aws:sns:us-west-2:388576304176:S3toDynamoArchiveV2"
+}
+import {
+  to = aws_sns_topic.this["S3toDynamoWindow"]
+  id = "arn:aws:sns:us-west-2:388576304176:S3toDynamoWindow"
+}
+import {
+  to = aws_sns_topic.this["SL_Green_Tunnel"]
+  id = "arn:aws:sns:us-west-2:388576304176:SL-Green-Tunnel"
+}
+import {
+  to = aws_sns_topic.this["SOS_Tech_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:SOS_Tech_Alerts"
+}
+import {
+  to = aws_sns_topic.this["STSAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:STSAlerts"
+}
+import {
+  to = aws_sns_topic.this["Sales_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Sales-Alerts"
+}
+import {
+  to = aws_sns_topic.this["Scott_Test"]
+  id = "arn:aws:sns:us-west-2:388576304176:Scott_Test"
+}
+import {
+  to = aws_sns_topic.this["Server_Down_Topic"]
+  id = "arn:aws:sns:us-west-2:388576304176:Server_Down_Topic"
+}
+import {
+  to = aws_sns_topic.this["St_Johns_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:St-Johns-Alerts"
+}
+import {
+  to = aws_sns_topic.this["Stability_Alarms"]
+  id = "arn:aws:sns:us-west-2:388576304176:Stability_Alarms"
+}
+import {
+  to = aws_sns_topic.this["Statewide"]
+  id = "arn:aws:sns:us-west-2:388576304176:Statewide"
+}
+import {
+  to = aws_sns_topic.this["Statewide_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Statewide-alerts"
+}
+import {
+  to = aws_sns_topic.this["Strategic_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Strategic-Alerts"
+}
+import {
+  to = aws_sns_topic.this["The_Recording_Academy_New_York_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:The_Recording_Academy_New_York_Alerts"
+}
+import {
+  to = aws_sns_topic.this["The_Recording_Academy_Santa_Monica_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:The_Recording_Academy_Santa_Monica_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Unicom_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Unicom-Alerts"
+}
+import {
+  to = aws_sns_topic.this["WHS_Gun_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:WHS_Gun_Alerts"
+}
+import {
+  to = aws_sns_topic.this["Weeksville"]
+  id = "arn:aws:sns:us-west-2:388576304176:Weeksville"
+}
+import {
+  to = aws_sns_topic.this["Western_Springs_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Western-Springs-Alerts"
+}
+import {
+  to = aws_sns_topic.this["Wisconsin_Spice_Alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:Wisconsin-Spice-Alerts"
+}
+import {
+  to = aws_sns_topic.this["acadia_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:acadia-alerts"
+}
+import {
+  to = aws_sns_topic.this["acadian_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:acadian-alerts"
+}
+import {
+  to = aws_sns_topic.this["actuate_ast_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:actuate-ast-alerts"
+}
+import {
+  to = aws_sns_topic.this["alibi_the_metaled_company"]
+  id = "arn:aws:sns:us-west-2:388576304176:alibi-the-metaled-company"
+}
+import {
+  to = aws_sns_topic.this["aws_cloudtrail_logs_388576304176_25002563"]
+  id = "arn:aws:sns:us-west-2:388576304176:aws-cloudtrail-logs-388576304176-25002563"
+}
+import {
+  to = aws_sns_topic.this["aws_cloudtrail_logs_388576304176_a901fb8b"]
+  id = "arn:aws:sns:us-west-2:388576304176:aws-cloudtrail-logs-388576304176-a901fb8b"
+}
+import {
+  to = aws_sns_topic.this["aws_controltower_SecurityNotifications"]
+  id = "arn:aws:sns:us-west-2:388576304176:aws-controltower-SecurityNotifications"
+}
+import {
+  to = aws_sns_topic.this["cloudwatch_slack_alarms"]
+  id = "arn:aws:sns:us-west-2:388576304176:cloudwatch-slack-alarms"
+}
+import {
+  to = aws_sns_topic.this["comedAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:comedAlerts"
+}
+import {
+  to = aws_sns_topic.this["csaa_tunnel_alarm"]
+  id = "arn:aws:sns:us-west-2:388576304176:csaa-tunnel-alarm"
+}
+import {
+  to = aws_sns_topic.this["customer_changes"]
+  id = "arn:aws:sns:us-west-2:388576304176:customer-changes"
+}
+import {
+  to = aws_sns_topic.this["customer_warnings"]
+  id = "arn:aws:sns:us-west-2:388576304176:customer-warnings"
+}
+import {
+  to = aws_sns_topic.this["customers_pager"]
+  id = "arn:aws:sns:us-west-2:388576304176:customers_pager"
+}
+import {
+  to = aws_sns_topic.this["demoDetected"]
+  id = "arn:aws:sns:us-west-2:388576304176:demoDetected"
+}
+import {
+  to = aws_sns_topic.this["detectedGun"]
+  id = "arn:aws:sns:us-west-2:388576304176:detectedGun"
+}
+import {
+  to = aws_sns_topic.this["detectedV2"]
+  id = "arn:aws:sns:us-west-2:388576304176:detectedV2"
+}
+import {
+  to = aws_sns_topic.this["devDetectedGun"]
+  id = "arn:aws:sns:us-west-2:388576304176:devDetectedGun"
+}
+import {
+  to = aws_sns_topic.this["devK80ASGInternal"]
+  id = "arn:aws:sns:us-west-2:388576304176:devK80ASGInternal"
+}
+import {
+  to = aws_sns_topic.this["dynamodb"]
+  id = "arn:aws:sns:us-west-2:388576304176:dynamodb"
+}
+import {
+  to = aws_sns_topic.this["email_ingress"]
+  id = "arn:aws:sns:us-west-2:388576304176:email-ingress"
+}
+import {
+  to = aws_sns_topic.this["emirates_falcon_security"]
+  id = "arn:aws:sns:us-west-2:388576304176:emirates-falcon-security"
+}
+import {
+  to = aws_sns_topic.this["eng_system_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:eng-system-alerts"
+}
+import {
+  to = aws_sns_topic.this["eyeforceAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:eyeforceAlerts"
+}
+import {
+  to = aws_sns_topic.this["eyeforce_pager"]
+  id = "arn:aws:sns:us-west-2:388576304176:eyeforce_pager"
+}
+import {
+  to = aws_sns_topic.this["genesis_warnings_low_priority"]
+  id = "arn:aws:sns:us-west-2:388576304176:genesis_warnings_low_priority"
+}
+import {
+  to = aws_sns_topic.this["gentech_demo_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:gentech-demo-alerts"
+}
+import {
+  to = aws_sns_topic.this["gun_demo"]
+  id = "arn:aws:sns:us-west-2:388576304176:gun-demo"
+}
+import {
+  to = aws_sns_topic.this["gun_detection_australia"]
+  id = "arn:aws:sns:us-west-2:388576304176:gun-detection-australia"
+}
+import {
+  to = aws_sns_topic.this["healthcheck_results_fifo"]
+  id = "arn:aws:sns:us-west-2:388576304176:healthcheck_results.fifo"
+}
+import {
+  to = aws_sns_topic.this["hsb_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:hsb-alerts"
+}
+import {
+  to = aws_sns_topic.this["imageProcessorError"]
+  id = "arn:aws:sns:us-west-2:388576304176:imageProcessorError"
+}
+import {
+  to = aws_sns_topic.this["mall_of_georgia_dodge"]
+  id = "arn:aws:sns:us-west-2:388576304176:mall-of-georgia-dodge"
+}
+import {
+  to = aws_sns_topic.this["max_security_empire_skip_lane2"]
+  id = "arn:aws:sns:us-west-2:388576304176:max-security-empire-skip-lane2"
+}
+import {
+  to = aws_sns_topic.this["max_security_flushing"]
+  id = "arn:aws:sns:us-west-2:388576304176:max-security-flushing"
+}
+import {
+  to = aws_sns_topic.this["mila_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:mila-alerts"
+}
+import {
+  to = aws_sns_topic.this["minh_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:minh-alerts"
+}
+import {
+  to = aws_sns_topic.this["new_support_email"]
+  id = "arn:aws:sns:us-west-2:388576304176:new-support-email"
+}
+import {
+  to = aws_sns_topic.this["platform_pager"]
+  id = "arn:aws:sns:us-west-2:388576304176:platform_pager"
+}
+import {
+  to = aws_sns_topic.this["reliantAlerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:reliantAlerts"
+}
+import {
+  to = aws_sns_topic.this["rfcu_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:rfcu-alerts"
+}
+import {
+  to = aws_sns_topic.this["ses_bounce"]
+  id = "arn:aws:sns:us-west-2:388576304176:ses-bounce"
+}
+import {
+  to = aws_sns_topic.this["sites_changes"]
+  id = "arn:aws:sns:us-west-2:388576304176:sites-changes"
+}
+import {
+  to = aws_sns_topic.this["sites_warnings"]
+  id = "arn:aws:sns:us-west-2:388576304176:sites-warnings"
+}
+import {
+  to = aws_sns_topic.this["sonitrol_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:sonitrol-alerts"
+}
+import {
+  to = aws_sns_topic.this["test_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:test-alerts"
+}
+import {
+  to = aws_sns_topic.this["testDynamoArchive"]
+  id = "arn:aws:sns:us-west-2:388576304176:testDynamoArchive"
+}
+import {
+  to = aws_sns_topic.this["test_s3_email"]
+  id = "arn:aws:sns:us-west-2:388576304176:test_s3_email"
+}
+import {
+  to = aws_sns_topic.this["uncommon_alerts"]
+  id = "arn:aws:sns:us-west-2:388576304176:uncommon-alerts"
+}
